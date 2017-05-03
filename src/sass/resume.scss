@@ -1,0 +1,131 @@
+@import './_common';
+$blue: #3270ac;
+$section-space: 10px;
+$raduis: 5px;
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background: #e1e1e3;
+    font-size: 14px;
+}
+
+body {
+    padding: $section-space;
+}
+
+.output {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    background: #fff;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+.icon {
+    display: inline-block;
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: $blue;
+    font-size: 15px;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+}
+
+.lft-section {
+    position: relative;
+    width: 600px;
+    background: #f5f5f5;
+    border-radius: $raduis;
+    overflow: hidden;
+    .name-box {
+        padding: 20px 0;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        background: $blue;
+    }
+    .avatar {
+        margin: auto;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background: url(../images/avatar.jpg) no-repeat center;
+        background-size: 100%;
+    }
+    .name {
+        font-size: 26px;
+        line-height: 40px;
+        margin: 10px auto 0 auto;
+    }
+    .job {
+        font-size: 15px;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+    .info-box {
+        display: flex;
+        margin: 14px auto;
+        padding: 0 10px;
+        .msg {
+            margin-left: 10px;
+            color: #7b7979;
+            word-break: break-word;
+            line-height: 26px;
+        }
+    }
+}
+
+.right-section {
+    position: relative;
+    .right-box {
+        padding: 20px;
+        margin: 0 0 $section-space $section-space;
+        background: #f5f5f5;
+        border-radius: $raduis;
+        .title-box {
+            .name {
+                display: inline-block;
+                margin: 0;
+            }
+        }
+    }
+    .module {
+        margin: 10px 0;
+        @include clearfix();
+        .company-logo {
+            position: relative;
+            float: left;
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .name {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 30px;
+        }
+        .date {
+            position: relative;
+            float: right;
+            color: #7b7979;
+        }
+        .msg {
+            margin: 0;
+        }
+        .skill {
+            line-height: 16px;
+        }
+    }
+}

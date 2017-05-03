@@ -39,12 +39,6 @@
                 </div> 
 
                 <div class="info-box">
-                    <i class="glyphicon glyphicon-stats icon"></i>
-                    <div class="msg">
-                        技术职级 T1-3
-                    </div>
-                </div> 
-                <div class="info-box">
                     <i class="glyphicon glyphicon-wrench icon"></i>
                     <div class="msg">
                         AngularJS,VUE<br/>HTML5,ES6<br/>Sass,JavaScript
@@ -102,7 +96,7 @@
         data() {
             return {
                 experience:[{
-                    time:'2017-至今',
+                    time:'2016.3月-至今',
                     skill:'前端工程师',
                     info:'跟产品、设计沟通交流，进行Web前端开发。',
                     company:'广州华多网络科技有限公司',
@@ -116,25 +110,25 @@
                 }],
                 project:[{
                     time:'2016.11 - 2017.02',
-                    name:'专题活动页',
+                    name:'Web模板系统',
                     job:'跟产品、设计沟通交流，进行Web前端开发。',
                     skill:'VUE、VUEX、RequireJS、ES6、Sass、Webpack',
                     des:'一个可配置的活动专题模版网站和CBA专题页。该系统是提供给运营同学根据设计的稿子进行配置活动页面，模块都是按需加载请求对应的静态文件。前期使用RequireJS开发，后来用VUE2重构成单页面应用。'
                 },{
                     time:'2016.07 - 2016.09',
-                    name:'喵警APP',
+                    name:'后端监控系统移动端',
                     job:'设计和前端开发',
                     skill:'Angular、Sass、FIS',
                     des:'这个是一个收集警报后分发给相应同事的单页面应用。我在此项目负责了设计和前端的开发。首次做设计和开发单应用APP，从构建手脚架到最后上线，遇到困难就Google和咨询有相关经验的同事解决，从中快速学习。'
                 },{
                     time:'2015.11 - 2016.02',
-                    name:'音乐拍APP',
+                    name:'直播APP',
                     job:'IOS和Android开发',
                     skill:'Android、IOS',
                     des:'一个短视频和直播功能的APP里的部分功能开发，在开发过程中快速学习ios和Android的开发。'
                 },{
                     time:'2014.11 - 2015.02',
-                    name:'最美搜衣管理平台',
+                    name:'图像人工智能识别系统移动端',
                     job:'前端开发',
                     skill:'Handlebars、NodeJS',
                     des:'图普科技是一家专注于图像人工智能识别的技术公司,产品有最美搜衣、图片/视频鉴黄服务接口、图像识别开放平台等。我在其中负责最美搜的部分移动端 web 页面的重构,和图像识别开放平台的前后功能实现,逐步优化和添加完善功能。 '

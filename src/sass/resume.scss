@@ -5,9 +5,8 @@ $raduis: 5px;
 html,
 body {
     margin: 0;
-    height: 100%;
     background: #e1e1e3;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 body {
@@ -43,7 +42,7 @@ body {
 
 .lft-section {
     position: relative;
-    width: 600px;
+    width: 500px;
     background: #f5f5f5;
     border-radius: $raduis;
     overflow: hidden;

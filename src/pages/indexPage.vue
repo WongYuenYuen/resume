@@ -96,13 +96,13 @@
         data() {
             return {
                 experience:[{
-                    time:'2016.3月-至今',
+                    time:'2015.3月-至今',
                     skill:'前端工程师',
                     info:'跟产品、设计沟通交流，进行Web前端开发。',
                     company:'广州华多网络科技有限公司',
                     companyLogo:'../images/huanju.jpg'
                 },{
-                    time:'2015.11月-2016.1月',
+                    time:'2014.11月-2015.2月',
                     skill:'前端工程师',
                     info:'根据功能需要进行前端开发。',
                     company:'广州图普网络科技有限公司',

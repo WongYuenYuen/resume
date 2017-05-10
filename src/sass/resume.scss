@@ -97,6 +97,9 @@ body {
                 margin: 0;
             }
         }
+        &:last-child{
+            margin-bottom: 0;
+        }
     }
     .module {
         margin: 10px 0;
@@ -122,6 +125,7 @@ body {
         }
         .msg {
             margin: 0;
+            line-height: 18px;
         }
         .skill {
             line-height: 16px;
